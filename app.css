@@ -5,21 +5,28 @@
 box-sizing: border-box;
 }
 
-body{
- 
+main {
+    background-color: moccasin;
+    margin:80px auto;
+    padding:60px;
+    width:800px;
 }
-
 .list-of-tasks
 {
-
     display: block;
 }
-
+ol {
+    list-style: none;
+}
 button{
     margin-top: 2em;
 }
 input
 {
     margin-top: 2em;
-display: block;
+    display: block;
+}
+input[type="checkbox"] {
+    margin:0 6px 0;
+    display: inline;
 }
