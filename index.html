@@ -9,27 +9,28 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>Your Very Own Tasks List</h1>
+    <main>
+        <h1>Your Very Own Tasks List</h1>
 
-    <label for="userinput">Please enter the task:</label>
-    <input type="text" name="userinput" id="userinput" placeholder="Enter task name">
-    
+        <label for="userinput">Please enter the task:</label>
+        <input type="text" name="userinput" id="userinput" placeholder="Enter task name">
+        
 
-    <!-- For Display I guess initially should be hidden -->
-    <ol id="tasks" class="list-of-tasks">
-        <!-- <li>First task</li>
-        <li>2nd</li>
-        <li>Third</li>
-        <li>Fourth</li>
-        <li>Fifth</li> -->
-    </ol>
-<!-- For Selecting Tasks -->
+        <!-- For Display I guess initially should be hidden -->
+        <ol id="tasks" class="list-of-tasks">
+            <!-- <li>First task</li>
+            <li>2nd</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li> -->
+        </ol>
+    <!-- For Selecting Tasks -->
 
-    <button id="addtask" onclick="addTask()">Add</button>
-    <button>Delete</button>
-    <button>Edit</button>
-    <button>Save</button>
-    
+        <button id="addtask" onclick="addTask()">Add</button>
+        <button id="deletetask" onclick="deleteTask()">Delete</button>
+        <button>Edit</button>
+        <button>Save</button>
+    </main>
     <script src="main.js"></script>
     </body>
 </html>

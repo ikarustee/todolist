@@ -5,12 +5,19 @@
 box-sizing: border-box;
 }
 
-
+main {
+    background-color: moccasin;
+    margin:80px auto;
+    padding:60px;
+    width:800px;
+}
 .list-of-tasks
 {
     display: block;
 }
-
+ol {
+    list-style: none;
+}
 button{
     margin-top: 2em;
 }
